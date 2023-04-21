@@ -15,5 +15,4 @@ BASIC PROJECT SETUP
 ROUTER SETUP
 1. 
 */
-
-
+const bappa =()=>{};
