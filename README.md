@@ -36,3 +36,5 @@ run the command
 Run the server
 
     nodemon index.js
+
+Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
