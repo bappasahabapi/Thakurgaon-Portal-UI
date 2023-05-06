@@ -90,29 +90,29 @@ Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
 
 **tree structure**
 
-📦src
+**📦src**
 
- ┣ 📂Pages
+**┣ 📂Pages**
 
- ┃ ┣ 📂Category
+ ┃ **┣ 📂Category**
 
  ┃ ┃ ┗ 📂Category
 
  ┃ ┃ ┃ ┗ 📜Category.js
 
- ┃ ┣ 📂Home
+ ┃ **┣ 📂Home**
 
  ┃ ┃ ┗ 📂Home
 
  ┃ ┃ ┃ ┗ 📜Home.js
 
- ┃ ┣ 📂News
+ ┃ **┣ 📂News**
 
  ┃ ┃ ┗ 📂News
 
  ┃ ┃ ┃ ┗ 📜News.js
 
- ┃ ┗ 📂Shared
+ ┃ **┗ 📂Shared**
 
  ┃ ┃ ┣ 📂BrandCarousel
  ┃ ┃ ┃ ┗ 📜BrandCarousel.js
