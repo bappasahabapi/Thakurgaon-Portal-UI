@@ -53,7 +53,9 @@ Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
 
 
 
-`React router dom`: **Google sign-in**
+`React router dom`: **React router dom v6**
+`React Hooks`: **useState(), useEffect()**
+`data load `: **fetch().then().then()**
 
 
 
