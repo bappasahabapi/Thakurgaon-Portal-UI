@@ -72,14 +72,17 @@ Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
 **tools and technology**
 
 `css-framework` : **React bootstrap**
+
 `Authentication`: **Firebase Authentication**
+
 `Sign in`: **Google sign-in**
+
 `Backend server`: **Making express server**
 
-
-
 `React router dom`: **React router dom v6**
+
 `React Hooks`: **useState(), useEffect()**
+
 `data load `: **fetch().then().then()**
 
 
@@ -94,14 +97,23 @@ Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
  ┃ ┣ 📂Category
 
  ┃ ┃ ┗ 📂Category
+
  ┃ ┃ ┃ ┗ 📜Category.js
+
  ┃ ┣ 📂Home
+
  ┃ ┃ ┗ 📂Home
+
  ┃ ┃ ┃ ┗ 📜Home.js
+
  ┃ ┣ 📂News
+
  ┃ ┃ ┗ 📂News
+
  ┃ ┃ ┃ ┗ 📜News.js
+
  ┃ ┗ 📂Shared
+
  ┃ ┃ ┣ 📂BrandCarousel
  ┃ ┃ ┃ ┗ 📜BrandCarousel.js
  ┃ ┃ ┣ 📂Footer
