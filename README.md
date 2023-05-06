@@ -1,4 +1,4 @@
-[backed-server-url](https://thakurgaon-portal-server-bappasahabapi.vercel.app/news)
+[backed-server-url](https://thakurgaon-portal-server.vercel.app/news)
 
 `Authentation`
 
