@@ -14,7 +14,7 @@ const LeftSideNav = () => {
 
     return (
         <div>
-            <h4>All Category: {categories.length}</h4>
+            <h6>All Category: {categories.length} types</h6>
            
             <div>
                 {
