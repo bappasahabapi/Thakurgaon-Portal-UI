@@ -1,3 +1,5 @@
+[backed-server-url](https://thakurgaon-portal-server-bappasahabapi.vercel.app/news)
+
 `Authentation`
 
 1. Make a folder under the src/context/AuthProvider
