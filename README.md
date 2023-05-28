@@ -40,9 +40,14 @@ export default AuthProvider;
 4. run command in terminal
     
     npm install
+4. run command in terminal
+    
+    npm install
 
 **5. Run the client part**
+**5. Run the client part**
 
+    npm start
     npm start
 
 Runs the app in the development mode.\
@@ -72,48 +77,52 @@ Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
 ---
 
 
-**tools and technology**
+### `npm test`
 
-`css-framework` : **React bootstrap**
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-`Authentication`: **Firebase Authentication**
+### `npm run build`
 
-`Sign in`: **Google sign-in**
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-`Backend server`: **Making express server**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-`React router dom`: **React router dom v6**
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 `React Hooks`: **useState(), useEffect()**
 
-`data load `: **fetch().then().then()**
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-`icons `: **react icons**
-
-
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
 
-**tree structure**
 
-**📦src**
+## Learn More
 
-**┣ 📂Pages**
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
- ┃ **┣ 📂Category**
+To learn React, check out the [React documentation](https://reactjs.org/).
 
- ┃ ┃ ┗ 📂Category
+### Code Splitting
 
- ┃ ┃ ┃ ┗ 📜Category.js
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
- ┃ **┣ 📂Home**
+### Analyzing the Bundle Size
 
- ┃ ┃ ┗ 📂Home
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
- ┃ ┃ ┃ ┗ 📜Home.js
+### Making a Progressive Web App
 
- ┃ **┣ 📂News**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
- ┃ ┃ ┗ 📂News
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
 
  ┃ ┃ ┃ ┗ 📜News.js
 
