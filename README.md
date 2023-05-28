@@ -1,70 +1,151 @@
-# Getting Started with Create React App
+[front-end ](https://thakurgaon-portal.web.app/)
+[backed-server-url](https://thakurgaon-portal-server.vercel.app/news)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+`Authentation`
 
-## Available Scripts
+1. Make a folder under the src/context/AuthProvider
+2. Create file  AuthProvider/*AuthProvider.js*
 
-In the project directory, you can run:
+```js
+import React, { createContext } from 'react';
 
-### `npm start`
+export const AuthContext =createContext();
+
+const AuthProvider = ({children}) => {
+    const user ={displayName:'Bappa Da'}
+    const authInfo ={user};
+    return (
+        <AuthContext.Provider value={authInfo}>
+            {children}
+        </AuthContext.Provider>
+    );
+};
+
+export default AuthProvider;
+```
+
+
+
+# Follow the steps:
+
+
+[1. First clone the project](https://github.com/bappasahabapi/Thakurgaon-Portal-UI.git)
+
+2. go to the folder
+
+    cd Thakurgaon-Portal-Client
+
+3. Switch the branch  [1.1-google-sign-in](https://github.com/bappasahabapi/Thakurgaon-Portal-UI/tree/1.1-google-sign-in).
+
+4. run command in terminal
+    
+    npm install
+
+**5. Run the client part**
+
+    npm start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+**Run the server part**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[1.clone the server](https://github.com/bappasahabapi/Thakurgaon-Portal-Server.git)
 
-### `npm run build`
+Go to the folder and type 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    cd Thakurgaon-Portal-Server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+run the command 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    npm install
 
-### `npm run eject`
+Run the server
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    nodemon index.js
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**tools and technology**
 
-### Code Splitting
+`css-framework` : **React bootstrap**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`Authentication`: **Firebase Authentication**
 
-### Analyzing the Bundle Size
+`Sign in`: **Google sign-in**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+`Backend server`: **Making express server**
 
-### Making a Progressive Web App
+`React router dom`: **React router dom v6**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+`React Hooks`: **useState(), useEffect()**
 
-### Advanced Configuration
+`data load `: **fetch().then().then()**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+`icons `: **react icons**
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**tree structure**
+
+**📦src**
+
+**┣ 📂Pages**
+
+ ┃ **┣ 📂Category**
+
+ ┃ ┃ ┗ 📂Category
+
+ ┃ ┃ ┃ ┗ 📜Category.js
+
+ ┃ **┣ 📂Home**
+
+ ┃ ┃ ┗ 📂Home
+
+ ┃ ┃ ┃ ┗ 📜Home.js
+
+ ┃ **┣ 📂News**
+
+ ┃ ┃ ┗ 📂News
+
+ ┃ ┃ ┃ ┗ 📜News.js
+
+ ┃ **┗ 📂Shared**
+
+ ┃ ┃ ┣ 📂BrandCarousel
+ ┃ ┃ ┃ ┗ 📜BrandCarousel.js
+ ┃ ┃ ┣ 📂Footer
+ ┃ ┃ ┃ ┗ 📜Footer.js
+ ┃ ┃ ┣ 📂Header
+ ┃ ┃ ┃ ┗ 📜Header.js
+ ┃ ┃ ┣ 📂LeftSideNav
+ ┃ ┃ ┃ ┗ 📜LeftSideNav.js
+ ┃ ┃ ┗ 📂RightSideNav
+ ┃ ┃ ┃ ┗ 📜RightSideNav.js
+ ┣ 📂Routes
+ ┃ ┗ 📂Routes
+ ┃ ┃ ┗ 📜Routes.js
+ ┣ 📂assets
+ ┃ ┗ 📂brands
+ ┃ ┃ ┣ 📜Brand1.png
+ ┃ ┃ ┗ 📜Brand2.png
+ ┣ 📂firebase
+ ┃ ┗ 📜firebase.config.js
+ ┣ 📂layout
+ ┃ ┗ 📜Main.js
+ ┣ 📜App.css
+ ┣ 📜App.js
+ ┣ 📜App.test.js
+ ┣ 📜__steps.js
+ ┣ 📜index.css
+ ┣ 📜index.js
+ ┣ 📜logo.svg
+ ┣ 📜reportWebVitals.js
+ ┗ 📜setupTests.js
